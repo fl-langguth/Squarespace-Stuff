@@ -1,0 +1,70 @@
+/* Add local fonts to your Squarespace Website */
+/* Created by Florian Langguth, @fl_langguth */
+:root {
+    --headline-font: 'XXXX';
+    --paragraph-font: 'XXXX';
+    --button-font: 'XXXX';
+    --forms-font: 'XXXX';
+}
+
+@font-face {
+    font-family: 'XXXX';
+    src: url("https://") format("woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'XXXX';
+    src: url("https://") format("woff2");
+    font-weight: 400;
+}
+
+/* Do not change anything below this line */
+
+h1, h2, h3, h4 {
+    font-family: var(--headline-font) !important;
+}
+
+p {
+    font-family: var(--paragraph-font) !important;
+}
+
+.site-wrapper {
+    font-family: var(--paragraph-font) !important;
+}
+
+.sqs-button-element--primary {
+    font-family: var(--button-font) !important;
+}
+
+.sqs-button-element--secondary {
+    font-family: var(--button-font) !important;
+}
+
+.sqs-button-element--tertiary {
+    font-family: var(--button-font) !important;
+}
+
+.header-actions-action--cta a, .header-skip-link {
+    font-family: var(--paragraph-font) !important;
+}
+
+.header-nav-item {
+    font-family: var(--paragraph-font) !important;
+}
+
+.sqs-block-form .field-list .title {
+    font-family: var(--forms-font) !important;
+}
+
+.sqs-block-form .field-list .caption {
+    font-family: var(--forms-font) !important;
+}
+
+.newsletter-form .newsletter-form-field-element {
+    font-family: var(--forms-font) !important;
+}
+
+.blog-meta-item {
+    font-family: var(--paragraph-font) !important;
+}
